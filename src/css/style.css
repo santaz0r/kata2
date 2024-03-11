@@ -118,16 +118,27 @@ abstracts
   }
 }
 
-.list ul {
+.list {
+  height: 450px;
   list-style-type: none;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 .list__item {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: -0.01em;
-  margin-bottom: 32px;
+  margin-bottom: 10px;
 }
 .list__item:last-child {
   margin-bottom: 0;
@@ -161,6 +172,17 @@ abstracts
 }
 
 .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -181,7 +203,7 @@ abstracts
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 46px;
+  margin-bottom: 10px;
 }
 .menu__header .menu__item {
   display: -webkit-box;
@@ -192,7 +214,19 @@ abstracts
           align-items: center;
 }
 .menu__list {
-  margin-bottom: 268px;
+  margin-bottom: 8px;
+}
+.menu__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .menu__footer .menu__item {
   display: -webkit-box;
@@ -201,10 +235,10 @@ abstracts
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 16px;
+  margin-bottom: 6px;
 }
 .menu__footer .menu__item .menu__button {
-  margin-right: 16px;
+  margin-right: 6px;
 }
 .menu__footer .menu__item .menu__button:last-child {
   margin-right: 0;
@@ -213,5 +247,5 @@ abstracts
   margin-bottom: 12px;
 }
 .menu__phone {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
