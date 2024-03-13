@@ -224,7 +224,6 @@ abstracts
           justify-content: space-between;
 }
 .menu__footer .menu__item {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -234,7 +233,6 @@ abstracts
   margin-bottom: 6px;
 }
 .menu__footer .menu__item .menu__button {
-  width: 100%;
   margin-right: 6px;
 }
 .menu__footer .menu__item .menu__button:last-child {
