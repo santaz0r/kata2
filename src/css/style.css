@@ -223,9 +223,10 @@ abstracts
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  height: 200px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 .menu__footer .menu__item {
   display: -webkit-box;
@@ -234,7 +235,7 @@ abstracts
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 6px;
+  margin-bottom: 16px;
 }
 .menu__footer .menu__item .menu__button {
   margin-right: 16px;
@@ -246,5 +247,5 @@ abstracts
   margin-bottom: 12px;
 }
 .menu__phone {
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
